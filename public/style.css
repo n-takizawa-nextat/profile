@@ -3,5 +3,7 @@ body {
 }
 
 .bg-img {
-    
+    height: 200px;
+    background-image: url(../img/アイコン.jpg);
+    background-position: center;
 }
