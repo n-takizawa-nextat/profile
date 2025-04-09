@@ -43,6 +43,7 @@ header nav a {
     justify-content: space-between;
     border-top: white solid 1px;
     padding-top: 10%;
+    height: 25%;
 }
 
 .content:nth-child(even) {
@@ -51,14 +52,17 @@ header nav a {
 }
 
 .content div {
-    width: 40%;
+    width: 44%;
 }
 
 .content img {
-    width: 40%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
 }
 
-.content h2{
+.content h2 {
     font-size: 3rem;
 }
 
