@@ -57,3 +57,17 @@ header nav a {
 .content img {
     width: 40%;
 }
+
+.content h2{
+    font-size: 3rem;
+}
+
+.content h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    margin: 4% 0;
+}
+
+.content p {
+    font-size: 1.5rem;
+}
