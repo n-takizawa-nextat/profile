@@ -31,3 +31,26 @@ header nav a {
     margin-right: 1rem;
     font-weight: bold;
 }
+
+.contents {
+    margin: 4% 8%;
+}
+
+.content {
+    display: flex;
+    margin-bottom: 20%;
+    justify-content: space-between;
+}
+
+.content:nth-child(even) {
+    flex-direction: row-reverse;
+
+}
+
+.content div {
+    width: 40%;
+}
+
+.content img {
+    width: 40%;
+}
