@@ -15,7 +15,7 @@ a:hover {
 header {
     height: 100vh;
     background-image: url(../img/アイコン.jpg);
-    background-size: cover;
+    background-size: contain;
 }
 
 header .line {
