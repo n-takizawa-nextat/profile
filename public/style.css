@@ -1,16 +1,25 @@
 body {
     background-color: #fbe0ab;
     color: white;
+    max-width: 1080px;
+    margin: 0 auto;
 }
 
 a {
     text-decoration: none;
 }
 
+a:hover {
+    color: pink;
+    opacity: .6;
+}
+
 header {
     height: 100vh;
     background-image: url(../img/アイコン.jpg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 header .line {
@@ -35,6 +44,7 @@ header nav a {
 
 .contents {
     margin: 4% 8%;
+    border-bottom: 1px solid white;
 }
 
 .content {
@@ -48,11 +58,14 @@ header nav a {
 
 .content:nth-child(even) {
     flex-direction: row-reverse;
-
 }
 
 .content div {
     width: 44%;
+}
+
+.content:nth-child(n+2) div {
+    height: 300px;
 }
 
 .content img {
@@ -74,4 +87,41 @@ header nav a {
 
 .content p {
     font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    margin: 4% 8%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    margin-left: 4%;
+}
+
+@media screen and (max-width: 750px) {
+    html {
+        font-size: 10px;
+    }
+
+    header {
+        height: 400px;
+        background-repeat: no-repeat;
+    }
+
+
+
+    .content {
+        flex-direction: column;
+    }
+
+    .content:nth-child(even) {
+        flex-direction: column;
+    }
+
+    .content div {
+        width: 100%;
+        margin-top: 8%;
+    }
 }
