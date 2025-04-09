@@ -7,6 +7,11 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: pink;
+    opacity: .6;
+}
+
 header {
     height: 100vh;
     background-image: url(../img/アイコン.jpg);
@@ -74,4 +79,14 @@ header nav a {
 
 .content p {
     font-size: 1.5rem;
+}
+
+footer {
+    display: flex;
+    margin: 4% 8%;
+    align-items: center;
+}
+
+footer a {
+    margin-left: 4%;
 }
